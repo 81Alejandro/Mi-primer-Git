@@ -1,0 +1,22 @@
+// Mi primer Git 
+const Militar = [
+  {
+    titulo: "Suboficial",
+    director: "Sargento Viceprimero",
+    estreno: 1986,
+    genero: "Guerra, Acción",
+    sinopsis: "Una guerra sin fin, por un estado lleno de corrupcion, al cual no pueden controlar el narcotrafico."
+  },
+  {
+    titulo: "Terminator",
+    director: "James Cameron",
+    estreno: 1984,
+    genero: "Ciencia Ficción, Acción",
+    sinopsis: "Un ciborg asesino es enviado desde el futuro para matar a Sarah Connor, cuyo hijo aún no nacido liderará la resistencia humana contra las máquinas en un futuro apocalíptico."
+  }
+];
+
+console.log(typeof Militar);
+console.log(Militar[0]);
+console.log(Militar[1]);
+console.log(Militar)
